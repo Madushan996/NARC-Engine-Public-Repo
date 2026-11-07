@@ -2,20 +2,26 @@
 
 <img src="assets/logo.png" alt="NARC Engine logo" width="180">
 
-# NARC Engine
+# NARC Engine 
+
+Please note that this is the old NARC engine repo and new releases with source code will be published in the new repo :- 
+https://github.com/Madushan996/NARC
+
+
+
 
 ### ♞ *Not All Real Computations* ♞
 
 **A grandmaster-strength UCI chess engine — written from scratch, with a neural
 network trained entirely on its own self-play.**
 
-![Version: 2.5](https://img.shields.io/badge/version-2.5-blue.svg)
-![CCRL perf: ~3013](https://img.shields.io/badge/CCRL%20perf%20rating-~3013-gold.svg)
+![Version: 2.5](https://img.shields.io/badge/version-4.1-blue.svg)
+![CCRL Rating : 3323](https://img.shields.io/badge/CCRL%20perf%20rating-3323-gold.svg)
 ![Protocol: UCI](https://img.shields.io/badge/protocol-UCI-success.svg)
 ![Platform: Windows](https://img.shields.io/badge/platform-Windows%20x64-0078D6.svg)
 ![License: Freeware](https://img.shields.io/badge/license-Freeware%20(closed%20source)-lightgrey.svg)
 
-*Authors: Madushan Dissanayake and Claude AI*
+
 
 </div>
 
@@ -29,27 +35,10 @@ Lazy SMP multithreading) with an **NNUE neural-network evaluation that was
 trained from zero on the engine's own games** — no human game data, no borrowed
 code, and no borrowed network.
 
-This repository distributes the engine for play, testing, and rating-list
-evaluation. It is **closed source**: the binary is provided, the source is not.
-For a full account of how the engine works and how it was built, see the
-technical documents below.
 
 ## Strength
 
-Tested against engines from the **CCRL** rating list at **2 min + 1 sec**:
-
-| Opponent (CCRL) | Result |
-|-----------------|--------|
-| 3302 | 1 – 9 |
-| 3061 | 3 – 7 |
-| 2903 | **6.5 – 3.5** |
-| 2766 | **10 – 0** |
-
-Overall **20.5 / 40** against opponents averaging **3008**, for an **estimated
-performance rating of ≈ 3013 Elo (CCRL scale)** — well above human grandmaster
-level. (Performance estimate from these games, not an official CCRL listing.)
-The classical-only build separately defeated Stockfish 17.1 limited to 2600 Elo
-by 6–4.
+The version 4.1 has a rating of 3323 according to the  CCRL 40/15 list. 
 
 ## Highlights
 
@@ -101,7 +90,6 @@ redistribution of modified versions are not permitted. See [LICENSE](LICENSE).
 
 ## Credits
 
-- Engine design, implementation, and neural network: **Madushan Dissanayake and
-  Claude AI**.
+- Engine design, implementation, and neural network: **Developed by Madushan Dissanayake with AI assistance**.
 - Piece-square table values: the public **PeSTO** tables by **Ronald Friederich**
   (RofChade).
