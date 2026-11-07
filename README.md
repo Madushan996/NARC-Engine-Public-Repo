@@ -19,7 +19,7 @@ network trained entirely on its own self-play.**
 ![CCRL Rating : 3323](https://img.shields.io/badge/CCRL%20perf%20rating-3323-gold.svg)
 ![Protocol: UCI](https://img.shields.io/badge/protocol-UCI-success.svg)
 ![Platform: Windows](https://img.shields.io/badge/platform-Windows%20x64-0078D6.svg)
-![License: Freeware](https://img.shields.io/badge/license-Freeware%20(closed%20source)-lightgrey.svg)
+
 
 
 
